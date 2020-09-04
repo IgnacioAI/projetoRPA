@@ -1,0 +1,36 @@
+{
+  "name": "process_compras",
+  "description": "Objetivos | Objective\r\n{ Pesquisar produto e preço ; Localizar centro de venda com valor mais barato, Executar comparação ; Executar compra ; Copiar número da fatura e valor ; Gravar informações em arquivo .csv }\r\n\r\n{Rechercher un produit et un prix; Trouvez un centre de vente avec une valeur moins chère, effectuez une comparaison; Exécuter l'achat; Copier le numéro et le montant de la facture; Ecrire des informations dans un fichier .csv}",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.8.6]",
+    "UiPath.Mail.Activities": "[1.8.6]",
+    "UiPath.System.Activities": "[20.4.0]",
+    "UiPath.UIAutomation.Activities": "[20.4.2]"
+  },
+  "webServices": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.4.3.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "fileInfoCollection": []
+  },
+  "expressionLanguage": "VisualBasic"
+}
